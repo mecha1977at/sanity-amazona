@@ -1,3 +1,16 @@
+:root {
+  --very-peri: #6667ab;
+
+  --periwinkle-1: #9a9cea;
+  --periwinkle-2: #a2b9ee;
+  --periwinkle-3: #a2dcee;
+  --periwinkle-4: #adeee2;
+
+  --kiwi-1: #028174;
+  --kiwi-2: #0ab68b;
+  --kiwi-3: #92de8b;
+  --kiwi-4: #ffe3b3;
+}
 html,
 body {
   padding: 0;
@@ -21,6 +34,7 @@ a {
   }
   body {
     color: white;
-    background: black;
+    /* background: black; */
+    background: var(--very-peri);
   }
 }
