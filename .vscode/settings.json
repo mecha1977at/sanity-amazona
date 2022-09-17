@@ -3,5 +3,6 @@
         "activityBar.background": "#24311E",
         "titleBar.activeBackground": "#324529",
         "titleBar.activeForeground": "#F8FAF7"
-    }
+    },
+    "cSpell.language": "de,en,en-GB,en-US,de-DE,lorem"
 }
