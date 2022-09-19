@@ -30,3 +30,19 @@
    1. add localhost:3000 to the CORS origins in sanity
    2. fetch products from sanity
    3. render them in the screen
+8. Create Product Details Screen
+   1. add [slug].js to product folder
+   2. create component
+   3. get slug from the url
+   4. fetch product form sanity client
+   5. render product image, info
+   6. show add to cart button
+9. Create React Context
+   1. define Context, Store and reducer
+   2. set darkMode flag
+   3. use it on layout
+10. Implement Add to cart
+    1. define cart in context
+    2. dispatch add to cart action
+    3. set click event handler for button
+    4. show cart items in the header menu
