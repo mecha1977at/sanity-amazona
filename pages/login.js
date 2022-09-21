@@ -45,7 +45,7 @@ export default function LoginScreen() {
       jsCookie.set('userInfo', JSON.stringify(data));
       router.push(redirect || '/');
     } catch (err) {
-      enqueueSnackbar(getError(err), { variant: 'error' });
+     enqueueSnackbar(getError(err), { variant: 'error' });
     }
   };
   return (
