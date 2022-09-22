@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import NextLink from 'next/link';
-import { useEffect, useState, useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { useSnackbar } from 'notistack';
 import Layout from '../../components/Layout';
 import classes from '../../utils/classes';
@@ -42,7 +42,7 @@ export default function ProductScreen(props) {
       try {
         const product = await client.fetch(
           `
-        *[_type == "product" && slug.current == $slug] [0]`,
+            *[_type == "product" && slug.current == $slug][0]`,
           { slug }
         );
         setState({ ...state, product, loading: false });
@@ -103,7 +103,7 @@ export default function ProductScreen(props) {
                 height={640}
               />
             </Grid>
-            <Grid md={3} xs={12}>
+            <Grid item md={3} xs={12}>
               <List>
                 <ListItem>
                   <Typography component="h1" variant="h1">
@@ -113,7 +113,7 @@ export default function ProductScreen(props) {
                 <ListItem>Category: {product.category}</ListItem>
                 <ListItem>Brand: {product.brand}</ListItem>
                 <ListItem>
-                  <Rating value={product.rating} readonly></Rating>
+                  <Rating value={product.rating} readOnly></Rating>
                   <Typography sx={classes.smallText}>
                     ({product.numReviews} reviews)
                   </Typography>

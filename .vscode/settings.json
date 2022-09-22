@@ -4,5 +4,9 @@
         "titleBar.activeBackground": "#324529",
         "titleBar.activeForeground": "#F8FAF7"
     },
-    "cSpell.language": "de,en,en-GB,en-US,de-DE,lorem"
+    "cSpell.language": "de,en,en-GB,en-US,de-DE,lorem",
+    "cSpell.words": [
+        "datetime",
+        "placeorder"
+    ]
 }

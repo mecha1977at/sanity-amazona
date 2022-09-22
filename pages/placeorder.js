@@ -111,7 +111,7 @@ function PlaceOrderScreen() {
               <ListItem>
                 <Button
                   onClick={() => router.push('/shipping')}
-                  variant="contianed"
+                  variant="contained"
                   color="secondary"
                 >
                   Edit
@@ -130,7 +130,7 @@ function PlaceOrderScreen() {
               <ListItem>
                 <Button
                   onClick={() => router.push('/payment')}
-                  variant="contianed"
+                  variant="contained"
                   color="secondary"
                 >
                   Edit

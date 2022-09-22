@@ -1,6 +1,5 @@
-import { Alert, CircularProgress, Grid, Typography } from '@mui/material';
+import { Alert, CircularProgress, Grid } from '@mui/material';
 import axios from 'axios';
-import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
 import { useEffect, useState, useContext } from 'react';
