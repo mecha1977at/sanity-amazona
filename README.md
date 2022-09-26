@@ -97,3 +97,11 @@
     1. create order history component
     2. load orders of current user
     3. render orders in the screen
+22. Update User Profile
+    1. create profile screen
+    2. create input forms for name, email
+    3. update user info
+23. Create Search Screen
+    1. create search screen
+    2. implement search filters
+    3. list products
