@@ -15,7 +15,7 @@ const classes = {
     textAlign: 'center',
   },
   appBar: {
-    backgroundColor: '#203040',
+    // backgroundColor: '#6667ab',
     '& a': {
       color: '#ffffff',
       marginLeft: 1,
@@ -32,6 +32,9 @@ const classes = {
     // color: '#ffffff',
     textTransform: 'initial',
     marginLeft: '8px',
+  },
+  fullWidth: {
+    width: '100%',
   },
 };
 
